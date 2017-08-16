@@ -1,5 +1,5 @@
 /*
-	Theme Name: Infinity Pro
+	Theme Name: Infinity Pro Alt
 	Theme URI: http://my.studiopress.com/themes/infinity/
 	Description: This is the Infinity Pro theme created for the Genesis Framework.
 	Author: StudioPress
@@ -1651,7 +1651,7 @@ p.entry-meta {
 	overflow: hidden;
 	table-layout: fixed;
 	text-align: center;
-	width: 100%;	
+	width: 100%;
 }
 
 .offscreen-container .widget-area {
@@ -1821,10 +1821,371 @@ p.entry-meta {
 	from { opacity: 0; }
 	to   { opacity: 1; }
 }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Steve edits for Infinity Alt ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.site-header .wrap {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.header-image .title-area {
+    margin-bottom: 4px;
+    margin-top: 3px;
+    min-height: 100px;
+    padding: 0;
+    width: 100%;
+	max-width: 420px;
+	background-image: url(images/headerLogoBeta.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.header-image .site-title > a {
+    background-size: contain !important;
+    float: left;
+    min-height: 100px;
+    width: 300px;
+}
+.header-widget-area {
+	float:right;
+}
+.home .front-page-1  {
+	padding: 0 !important;
+	margin: 0 !important;
+	height: auto;
+	background-image: none !important;
+}
+.front-page-1 .widget-area .wrap  {
+	padding: 0 !important;
+	margin: 0 !important;
+	height: auto;
+	object-fit: cover;
+}
+
+.front-page-1 .wrap {
+	max-width: 3000px;
+}
+.front-page-2 .widget-full .wrap, .front-page-3 .widget-full .wrap, .front-page-4 .widget-full .wrap, .front-page-5 .widget-full .wrap, .front-page-6 .widget-full .wrap, .front-page-7 .widget-full .wrap {
+    max-width: 1280px;
+}
+.front-page-1 .widget-area {
+    display: table-cell;
+    padding-top: 0;
+    vertical-align: top;
+    width: 100%;
+}
+.soliloquy-container .soliloquy-item {
+    height: 80vh;
+}
+.soliloquy-container .soliloquy-caption.soliloquy-caption-bottom {
+    bottom: 10% !important;
+    width: 100%;
+}
+.soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+.sidebar .widget-title, .footer-widgets .widget-title {
+	text-align: left;
+}
+.entry-header {
+	text-align: left;
+}
+.after-entry, .archive-description, .author-box, .breadcrumb {
+	text-align: left;
+}
+.entry-header::after {
+	width: 100%;
+}
+.footer-widgets .footer-widgets-3 {
+	float: right;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ end Steve edits for Infinity Alt  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Steve edits  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.site-header, .home .site-header {
+	background-image: url(images/headerBG3.jpg);
+	background-color: #02cbbe !important;
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	border-bottom: 2px solid #015f59 !important;
+	box-shadow: 0 0 60px #015f59 inset, 0 0 20px #333;
+}
+.site-header .wrap {
+	position: relative;
+}
+.header-widget-area {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.header-image .title-area {
+    margin-bottom: 4px;
+    margin-top: 3px;
+    min-height: 160px;
+    padding: 0;
+    width: 100%;
+	max-width: 280px;
+	background-image: url(images/headerLogo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.white .header-image .title-area, .white .site-header .title-area {
+    min-height: 120px !important;
+	max-width: 200px !important;
+	transition-duration: 0.25s !important;
+}
+.home .front-page-1 {
+	padding-top: 170px !important;
+}
+.headerText, .headerText p {
+	font-size: 3rem;
+	font-weight: 700;
+	padding-right: 10px;
+}
+/*~~~~~~~~~~~~~ off screen content icon   */
+.offscreen-content button, .offscreen-content-icon button, .front-page .white .offscreen-content button, .front-page .white .offscreen-content-icon button  {
+	background-color: rgba(0,0,0,0);
+}
+.offscreen-content a {
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 2px dotted;
+}
+.ion-ios-more::before {
+    content: " " !important;
+	font-size: 1.5rem;
+}
+.header-widget-area button.offscreen-content-toggle {
+	position: static;
+	color: #024542;
+	background-color: rgba(0,0,0,0);
+	font-size: 3rem;
+	text-transform: none;
+	padding: 0;
+	font-family: 'Cormorant Garamond', serif;
+	letter-spacing: normal;
+	line-height: normal;
+}
+.header-widget-area, .header-widget-area a {
+	color: #024542;
+}
+.header-widget-area button.offscreen-content-toggle:hover {
+	color: #afd9d7;
+	text-shadow: 1px 1px 2px #000;
+}
+.front-page .genesis-nav-menu .sub-menu a, .front-page .white .genesis-nav-menu a, .front-page .white .offscreen-content-icon button, .front-page .white .site-title a, .header-image.front-page .genesis-nav-menu a, .header-image.front-page .genesis-nav-menu .sub-menu a, .header-image.front-page .offscreen-content-icon button {
+    color: #024542;
+}
+
+.genesis-nav-menu a {
+	font-size: 1.65rem;
+}
+.genesis-nav-menu a:hover, .genesis-nav-menu a:focus, .genesis-nav-menu .current-menu-item > a {
+    color: #afd9d7 !important;
+    text-decoration: none;
+		text-shadow: 1px 1px 2px #011716;
+}
+.genesis-nav-menu .sub-menu a:hover, .genesis-nav-menu .sub-menu .current-menu-item > a:hover, .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
+    color: #047d78 !important;
+    text-decoration: none;
+		text-shadow: none;
+}
+.front-page-2 {
+	background-image: url(images/leatherPatch171.jpg);
+	/*background-image: url(images/blueBerryBG.png); */
+	background-repeat: repeat;
+	background-size: 400px;
+	border-top: 3px solid #015f59;
+	border-bottom: 3px solid #015f59;
+	box-shadow: inset 0 0 60px #444;
+	/*box-shadow: inset 0 0 300px #015f59; */
+	/* box-shadow: inset 0 0 300px #015f59; */
+	background-attachment: fixed;
+}
+.front-page-2 .wrap {
+	background-color: rgba(256,256,256,0.65);
+	padding: 30px;
+	box-shadow: inset 0 0 30px #aaa;
+	border: 1px solid #04807b;
+	border-radius: 16px;
+}
+.home .front-page-3 {
+	background-image: url(images/events3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	box-shadow: inset 0 0 30px #333;
+}
+.home .front-page-3 .wrap {
+	background-color: rgba(0,65,55,0.75);
+	box-shadow: inset 0 0 50px #000;
+	padding: 30px;
+	border: 1px solid #030;
+	border-radius: 16px;
+	text-shadow: 1px 1px 4px #000;
+}
+.home .front-page-3 .featured-content .entry-title a, .home .front-page-3 .entry-header {
+	text-decoration: none;
+	text-align: center;
+	border: none;
+}
+
+.home .front-page-7 {
+	background-image: url(images/stateMap.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	box-shadow: inset 0 0 50px #333;
+}
+.home .front-page-7 .wrap {
+	padding: 30px;
+	color: #333;
+	box-shadow: inset 0 0 50px #aaa;
+	background-color: rgba(256,256,256,0.75);
+	border-radius: 16px;
+	border: 2px solid #fff;
+}
+.home .front-page-7 .entry-header::after {
+	margin: 0;
+}
+.home .front-page-7 .wrap p, .home .front-page-7 .wrap a, .home .front-page-7 .wrap fetured-content entry-title a, .home .front-page-7 .wrap .widget-title  {
+	color: #333;
+	line-height: normal;
+}
+.home .front-page-7 a:hover,
+.home .front-page-7 a:focus,
+.home .front-page-7 .featured-content .entry-meta a:hover,
+.home .front-page-7 .featured-content .entry-meta a:focus,
+.home .front-page-7 .featured-content .entry-title a:hover,
+.home .front-page-7 .featured-content .entry-title a:focus {
+	color: #003912;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #024542;
+}
+.content-sidebar-wrap .content {
+	padding: 25px 60px 80px;
+}
+.entry-header::after {
+    border-bottom: none;
+    margin: 0 auto 10px;
+    padding-bottom: 10px;
+}
+.entry-header .entry-meta {
+	position: absolute;
+	left: -9999px;
+}
+.after-entry, .archive-description, .author-box, .breadcrumb {
+    /*border-bottom: 1px solid #eee; */
+	border-bottom: none;
+    margin-bottom: 10px;
+}
+/* restyle tables  */
+td, th {
+    line-height: normal;
+}
+th {
+	font-weight: 600;
+	background-color: #efefef;
+}
+th, td, td:first-child, th:first-child {
+	padding-left: 5px;
+	border: 1px solid #ccc;
+	vertical-align: top;
+	line-height: normal;
+}
+/* end restyle tables  */
+.footer-widgets {
+    background-color: #015f59;
+    border-top: 3px solid #014d48;
+	color: #eee;
+	box-shadow: inset 0 0 50px #111;
+}
+.footer-widgets .widget-title {
+	color: #eee;
+}
+.footer-widgets p {
+	line-height: normal;
+}
+.footer-widgets a {
+	color: #fff;
+	border-bottom: 1px dotted #ccc;
+}
+.footer-widgets a:hover {
+	color: #ddd;
+	border-bottom: 1px dotted #989898;
+	text-shadow: 1px 1px .05rem #eee;
+}
+.site-footer {
+	background-color: #01302d;
+	border-top: 1px solid #000;
+	color: #eee;
+}
+.site-footer a {
+	color: #7fc2bf;
+}
+.site-footer a:hover {
+	color: #aad6d5;
+	text-shadow: 1px 0 1px #aaa;
+}
+.content-sidebar-wrap a {
+	color: #047d78;
+	font-weight: 700;
+}
+.content-sidebar-wrap a:hover {
+	color: #024542;
+	text-shadow: .035rem .025rem .035rem #555;
+	text-shadow: 1px 1px 0px #333;
+	transition-duration: .25s;
+}
+a img:hover {
+	opacity: 0.7;
+	transition-duration: .25s;
+}
+
+.textRight {
+	text-align: right;
+}
+.centerit {
+	text-align: center;
+}
+.clearit {
+	clear: both;
+}
+.textRight, .textRight .widget-title {
+	text-align: right !important;
+}
+.contentRight {
+	float: right;
+	padding: 0 0 20px 15px;
+}
+.content-sidebar-wrap button, .content-sidebar-wrap input[type="button"], .content-sidebar-wrap input[type="reset"], .content-sidebar-wrap input[type="select"], .content-sidebar-wrap input[type="submit"], .content-sidebar-wrap .button {
+	background-color: #014d48;
+	border-radius: 8px;
+	box-shadow: inset 0 0 10px #111;
+}
+.content-sidebar-wrap button:hover, .content-sidebar-wrap input[type="button"]:hover, .content-sidebar-wrap input[type="reset"]:hover, .content-sidebar-wrap input[type="select"]:hover, .content-sidebar-wrap input[type="submit"]:hover, .content-sidebar-wrap .button:hover {
+	background-color: #43c4ba;
+}
+.collapseomatic {
+	background-position: 0 10px;
+}
+.logged-in .hideWhenLogged {
+	position: absolute;
+	left: -99999px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ end Steve edits  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 /* Media Queries
----------------------------------------------------------------------------------------------------- */	
+---------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1023px) {
 
@@ -1833,6 +2194,29 @@ p.entry-meta {
 		padding-right: 10px;
 	}
 
+	.header-image .title-area {
+		background-position: center !important;
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	.header-widget-area {
+		float: none;
+		width: 90%;
+		text-align: center;
+	}
+	.header-widget-area {
+		position: relative;
+	}
+	.header-widget-area .textRight {
+		text-align: center;
+	}
+	.js .site-inner {
+		margin-top: 0 !important;
+	}
+	.soliloquy-container .soliloquy-item {
+    	height: auto;
+	}
 }
 
 @media only screen and (max-width: 800px) {
@@ -1864,6 +2248,9 @@ p.entry-meta {
 		float: none;
 		margin: 0 auto;
 	}
+	#front-page-1.front-page-1 {
+		padding-top: 0 !important;
+	}
 
 	.genesis-nav-menu li,
 	.header-image .title-area {
@@ -1894,7 +2281,7 @@ p.entry-meta {
 	.menu-toggle,
 	.sub-menu-toggle {
 		border-width: 0;
-		background-color: #fff;
+		background-colorXX: #fff;
 		color: #000;
 		display: block;
 		margin: 0 auto;
@@ -1902,7 +2289,7 @@ p.entry-meta {
 		text-align: center;
 		visibility: visible;
 	}
-	
+
 	.menu-toggle:hover,
 	.menu-toggle:focus,
 	.sub-menu-toggle:hover,
@@ -2021,11 +2408,11 @@ p.entry-meta {
 		float: none;
 		padding: 0;
 	}
-	
+
 	.content-sidebar .content {
 		border-right: none;
 	}
-	
+
 	.sidebar-content .content {
 		border-left: none;
 	}
@@ -2091,6 +2478,159 @@ p.entry-meta {
 
 	.offscreen-content p {
 		line-height: 1.5;
+	}
+
+}
+
+/* Responsive Navigation
+---------------------------------------------------------------------------------------------------- */
+
+/* Standard Navigation
+--------------------------------------------- */
+
+nav {
+	clear: both;
+}
+
+/* Navigation toggles
+--------------------------------------------- */
+
+.sub-menu-toggle,
+.menu-toggle {
+	display: none;
+	visibility: hidden;
+}
+.ion-drag::before {
+	content: "\2630 Menu" !important;
+	padding: 5px 5px 8px;
+	background-color: #d6c4b6;
+	box-shadow: inset 0 0 5px #b4a599;
+	color: #333;
+	border: 1px solid #333;
+	border-radius: 3px;
+}
+/* Navigation toggles - Ensure Menu Displays when Scaled Up
+--------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+
+	nav {
+		display: block !important;
+	}
+}
+
+/* Navigation toggles - Mobile (Change max width as you see fit)
+--------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+	.site-header, .home .site-header {
+		background-image: url(images/headerBGMobile3.jpg);
+		background-size: cover;
+	}
+	.menu-toggle,
+	.sub-menu-toggle {
+		display: block;
+		font-size: 20px;
+		font-size: 2rem;
+		font-weight: 700;
+		margin: 0 auto;
+		overflow: hidden;
+		padding: 20px;
+		padding: 2rem;
+		text-align: center;
+		visibility: visible;
+	}
+	.sub-menu-toggle {
+		width: 100%;
+		text-align: right;
+		background-color: rgba(256,256,256,0) !important;
+		padding: 0 !important;
+	}
+
+	button.menu-toggle,
+	button.sub-menu-toggle {
+		background-color: transparent;
+		color: #999;
+	}
+	.genesis-nav-menu .menu-item {
+		padding: 0 0 0 5px;
+	}
+	.sub-menu-toggle {
+		padding: 18px;
+		padding: 1.8rem;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.nav-header .ion-chevron-down::before {
+    	content: " ";
+	}
+	.nav-header .menu-toggle:before {
+		content: "\2261";
+	}
+
+	.nav-header .menu-toggle.activated:before {
+		content: "\2191";
+	}
+
+	.nav-header .sub-menu-toggle:before {
+		content: "+";
+	}
+
+	.nav-header .sub-menu-toggle.activated:before {
+		content: " - ";
+		background-color: #fff;
+		padding: 0 5px;
+	}
+
+	nav {
+		display: none;
+		position: relative;
+	}
+
+	.genesis-nav-menu .menu-item {
+		background-color: #f5f5f5;
+		display: block;
+		position: relative;
+		text-align: left;
+	}
+
+	.genesis-nav-menu .menu-item:hover {
+		position: relative;
+	}
+
+	.genesis-nav-menu .sub-menu {
+		clear: both;
+		display: none;
+		opacity: 1;
+		position: static;
+		width: 100%;
+	}
+
+	.genesis-nav-menu .sub-menu a {
+		border-left: 0;
+		position: relative;
+		width: auto;
+	}
+
+	.genesis-nav-menu .sub-menu .sub-menu {
+		margin: 0;
+	}
+
+	.genesis-nav-menu .sub-menu .sub-menu a {
+		background-color: #f5f5f5;
+		padding-left: 30px;
+	}
+
+	.genesis-nav-menu .sub-menu .sub-menu .sub-menu a {
+		background-color: #fff;
+		padding-left: 40px;
+	}
+
+	.nav-primary a:hover,
+	.nav-primary .current-menu-item > a {
+		color: #333;
 	}
 
 }
